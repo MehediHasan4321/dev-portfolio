@@ -92,7 +92,7 @@ ul li {
 }
 
 main {
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
     border-radius: 5px;
 
@@ -138,5 +138,34 @@ main {
 
 .skil {
     margin: 100px;
-    padding: 50px 130px;
+    margin: 50px 130px;
+}
+.skil-card{
+    width: 25%;
+    height: 350px ;
+    background-color: white;
+    padding: 30px;
+    margin-left: 30px;
+    text-align: left;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+.skil-card img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.skil-card h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.skil-card p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #757575;
+    margin-bottom: 20;
 }
