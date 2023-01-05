@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;700&family=Roboto:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header and nav style */
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    height: 64px;
+    background-color: #FD6E0A;
+    padding: 20px 30px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+header {
+    width: 100%;
+    height: 80vh;
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    margin-left: 50px;
+}
+
+/* bannar styles */
+
+.bannar {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bannar-text h3 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.bannar-text h1 {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.bannar-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.banner-img {
+    margin-top: 38px;
+}
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+
+}
+
+.about {
+    background-color: #FFF8F3;
+    margin: 100px;
+    padding: 50px 130px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+.title-description {
+    text-align: center;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.section-contact {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.section-contact h4 {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.section-contact p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skil {
+    margin: 100px;
+    padding: 50px 130px;
+}
